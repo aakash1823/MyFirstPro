@@ -1,0 +1,658 @@
+/*media query for mobile view from 350px to 599px */
+@media all and (min-width:350px){
+    
+    nav{
+        margin-top: 0;
+        margin-left: 0;
+        display:inline-block;
+        width:100vw;
+        
+    }
+    .r1{
+        margin-right: 18%;
+    }
+    nav a{
+        
+        display:inline-block;
+        line-height: 45px;
+        font-size: 110%;
+        margin-top: 0px;
+        padding:0.5% 0.6%;
+        
+    }       
+    nav img{
+        width: 15%;
+        
+    }
+    .heading{
+        font-size: 95%;
+        color:black;
+        transition: linear;
+        transition: color 2s;
+    }
+  
+    .org{
+        color: rgb(19, 230, 230);
+        font-size: 40px;
+    }
+    .org1{
+        color: rgb(19, 230, 230);
+        font-size: 30px;
+    }
+    
+    
+    .about-me{
+      
+        margin-left: 9.5%;
+        width:80%;
+        
+    }
+    .title{
+        font-size: 180%;
+    }
+    .my-img{
+        width:40%;
+       
+    }
+    .content{
+        margin-top:25%;
+        font-size: 100%;
+        
+    }
+    .ad{
+        font-size: 100%;
+        transition-timing-function: linear;
+    }
+
+   
+    .skills{
+            
+        margin-left: 10%;
+        padding-top:5%;
+        font-size: 100%;   
+        line-height: 150%;
+
+    }
+    .title1{
+    
+        margin-left: 10%;
+
+    }
+    .wer{
+        width: 70%;
+    }
+    
+    .wer1{
+        width: 70%;
+        
+    }
+    .set1{
+        margin-left: 10%;
+        width:80%;
+    }
+ 
+    .set2{
+        margin-left: 10%;
+        width: 50%;
+    }
+    .web{
+        width: 150%;
+        
+    }
+    .viewpro{
+       
+        width: 150%;
+        
+    }
+   #map{
+       text-align: center;
+       width: 400px;
+       height: 400px;
+   }
+   .copyright{
+    margin-left: 1%;
+    margin-right: 9%;
+    font-size:small;
+    display: inline;
+    
+}
+.pic{
+    margin-right: 1%;
+}
+.pic1{
+    margin-right: 1%;
+}
+.pic2{
+    margin-right: 1%;
+}
+
+
+
+}
+/*media query for laptop or desktop view view from 600px  */
+@media all and (min-width:600px)
+{
+    nav{
+        
+        display: inline-block;
+        float:left;
+        width: 6%;
+        min-width: 125px;
+        margin:0;
+        height:100vh;
+        
+    }
+
+    nav a{
+        
+        display:block;
+        line-height: 95px;
+        height:85px;
+        font-size: 120%;
+    }
+
+
+    nav img{
+        width: 100%;
+        margin-bottom: 20%;
+    }
+    .heading{
+        width:70%;
+        font-size: 160%;
+        animation-name: headinganim;
+        animation-duration: 2s;
+    }
+    .org{
+        color: rgb(19, 230, 230);
+        font-size: 50px;
+    }
+    .org1{
+        color: rgb(19, 230, 230);
+        font-size: 50px;
+    }
+    .about-me{
+     
+        margin-left: 23%;
+        margin-right: 15%;
+        width:40%;
+        
+    }
+    .title{
+    font-size: 170%;
+    }
+
+    .content{
+        margin-top:15%;
+        font-size: 120%;
+       
+    }
+    .my-img{
+        width:30%;
+    }
+    .ad{
+        font-size: 125%;
+        transition-timing-function: ease-out;
+        
+    }
+    .skills{
+        margin-left: 15%;
+        padding-top:7%;
+        font-size: 150%;   
+        line-height: 180%;
+     
+    }
+    .title1{
+     
+        margin-left: 47%;
+
+    }
+    .wer{
+        width: 30%;
+    }
+    
+    .wer1{
+        
+        width: 30%;
+        
+    }
+    .set1{
+        margin-left: 8%;
+        width:40%;
+        float: left;
+    }
+  
+    .set2{
+        float: left;
+        width: 20%;
+    }
+    .web{
+        width: 100%;
+        
+    }
+    #map
+ { 
+        text-align: center;
+        height: 100vh; 
+        width: 50%; 
+      
+   }
+   .copyright{
+    margin-left: 1%;
+    display: inline-block;
+}
+.pic{
+    margin-left: 60%;
+    
+}
+.pic1{
+    margin-left: 1%;
+
+}
+.pic2{
+    margin-left: 1%;
+}
+
+
+}
+
+/*font and animation*/
+
+@font-face{
+    src:url(Galada-Regular.ttf);
+    font-family: as;
+}
+@font-face{
+    src:url(NotoSerif-Bold.ttf);
+    font-family: ap;
+}
+@font-face{
+    src:url(LaBelleAurore-Regular.ttf);
+    font-family: an;
+}
+@font-face{
+    src:url(Happy\ Iness.ttf);
+    font-family: bn;
+}
+@font-face{
+    src:url(Lobster-Regular.ttf);
+    font-family: bp;
+}
+@font-face{
+    src:url(MontserratSubrayada-Regular.ttf);
+    font-family: bq;
+}
+@font-face{
+    src:url(Fondamento-Regular.ttf);
+    font-family: bs;
+}
+@font-face{
+    src:url(digital-7\ \(italic\).ttf);
+    font-family: qs;
+}
+@keyframes headinganim {
+   
+    0% {color:rgb(216, 46, 193); left: 0px; right:0px;}
+
+    50%{color:rgb(96, 204, 223);left: 200px;right:0px;}
+    100%{color:rgb(233, 233, 241);left:0px;right:200px;}
+}
+@keyframes navanim{
+    from{ transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+  
+}
+@keyframes progressanim{
+    from{color:red;}
+    to{color: aqua;}
+}
+@keyframes headinganim2{
+   from{visibility: hidden;}
+    to{visibility: visible;}
+}
+@keyframes contentanim{
+    from{color:rgb(199, 55, 55);}
+     to{color: #FFFFFF;}
+ }
+ @keyframes skillsanim{
+    from{color:rgb(245, 226, 226);}
+     to{color:rgb(242, 10, 180);}
+ }
+@keyframes titleanim{
+    from{color:rgb(0, 0, 0);}
+    to{color: aqua;}
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+/*font and animation close*/
+
+/*body opens*/
+
+/* home body*/
+.home{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/aak.jpeg);
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0 0;
+}
+
+/*about body*/
+.about{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/aak.jpeg);
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0 0;
+}
+
+/*body closes*/
+
+/*nav open*/
+
+nav{
+    overflow: auto;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+nav a{
+    
+    font-family:as;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    animation-name: navanim;   
+    animation-duration: 1.5s;
+    color: #FFFFFF;
+    width: auto;
+}
+
+nav a:hover{
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    color:rgb(197, 36, 36);
+}
+.active{
+    color:rgb(242,10,180);
+}
+
+/*nav close*/
+
+/* heading open*/
+.heading{
+    display:inline-block;
+    float: left;
+    color: #FFFFFF;
+    padding-top: 0px;
+    padding-left: 50px;
+    margin-top: 0px;
+    text-overflow: unset;
+
+    position: relative;
+    font-family: ap;
+    text-shadow: 2px 2px  rgb(180, 33, 114);
+      
+}
+
+
+.heading a{
+    text-decoration: none;
+    text-shadow: none;
+    color: rgb(180,33,114) ;
+    padding-right: 5%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-size:90%;
+    border:2px double rgb(180, 33, 114);
+    background-color: #ffffff;
+    opacity: 0.5;
+}
+.heading a:hover{
+    background-color:rgb(180, 33, 114);
+    color: black;
+    opacity: 1;
+}
+
+/*heading close*/
+
+/*home dec*/
+.home-we{
+    margin-top: 0;
+    padding-bottom:100px ;
+}
+.home-ws,.home-we,.home-wl,.home-wk{
+    font-family: an;
+    color:  rgb(180, 33, 114);
+    text-shadow: none;
+    font-weight: bold;
+    
+}
+.home-wk{
+    
+    padding-top: 60px;
+}
+.home-wl{
+    margin-bottom: 0px;
+}
+/* home dec close */
+/* text colour hover */
+.blue:hover{
+    color: rgb(19,230, 230);
+    font-weight: bold;
+    transition: all 0.3s ease-out;
+    text-rendering: optimizeLegibility;
+}
+/* text colour hover close*/
+
+
+/*About page starts*/
+
+.title{
+    color: rgb(19, 230, 230);
+    text-align: center;
+    margin-top: 10%;
+    font-family: bq;
+    animation-name: titleanim;
+    animation-duration: 4s;
+}
+.about-me{
+    display:inline-block;
+    font-size: 100%;
+    color: #FFFFFF;
+}
+.content{
+    margin-left: 4%;
+    color:rgb(255, 255, 255);
+    animation-name: contentanim;
+    animation-duration: 2s;
+    font-family: bp;
+
+}
+.my-img{
+    
+    border-radius: 50%;
+    display: inline;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+    animation-name: navanim;   
+    animation-duration: 1.5s;
+}
+
+.ad{
+    display: inline;
+    margin-left: 5%;
+    margin-top: 0%;
+    color:rgb(242,10,180);
+    /*text-shadow: white;*/
+    transition-property: all;
+    transition-duration: 2s;
+    font-family: bn;
+}
+
+/*skills page*/
+.skills{
+    color: rgb(242, 10, 180);
+   
+    font-family: bs; 
+    animation-name: skillsanim;
+    animation-duration: 4s;
+}
+
+.title1{
+    color: rgb(19, 230, 230);
+    margin-top: 0;
+    padding-top: 4%;
+    font-family: bq;
+    animation-name: titleanim;
+    animation-duration: 4s;
+}
+#file{
+    animation-name: shake;
+    animation-duration: 4s;
+}
+.a{
+    font-family: qs;
+    color: rgb(190, 21, 182);
+}
+
+
+/*portfolio page*/
+.wer{
+    margin-top: 1%;
+    height:8%;
+    opacity: 0.5;
+}
+.wer:hover,.wer1:hover,.web:hover{
+    opacity: 1;
+    animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+.wer1{
+    margin-top: 2%;
+    height:8%;
+    opacity: 0.5;
+}
+.q1{
+    font-family: bs;
+    color:rgb(207, 24, 183);
+}
+.web{
+    height: 100%;
+    opacity: 0.5;
+}
+.viewpro{
+    font-family: bs;
+    color:rgb(207, 24, 183) ;
+    animation-name: headinganim;
+    animation-duration: 2s;
+        
+
+}
+
+/*form-page*/
+
+.form{
+    padding-top: 9%;
+    margin-left: 3%;
+    margin-right: 3%;
+    float: left;
+    
+}
+.names{
+    color: rgb(32, 201, 201);
+}
+.bgcolor{
+    background-color: rgb(190, 190, 190);
+    width: 47%;
+    padding-top: 0.9%;
+    padding-bottom: 0.9%;
+    padding-left: 0.8%;
+    padding-right: 0.5%;
+    color: black;
+}
+.bgcolor1{
+    background-color: rgb(190, 190, 190);
+
+}
+.a3{
+    float:left;
+}
+
+#map
+ { 
+        text-align: center;
+        height: 100vh; 
+        width: 50%; 
+   }
+
+       /*form-page*/
+
+.form{
+    padding-top: 9%;
+    margin-left: 3%;
+    margin-right: 3%;
+    float: left;
+    
+}
+.names{
+    color: rgb(32, 201, 201);
+}
+.bgcolor{
+    background-color: rgb(190, 190, 190);
+    width: 47%;
+    padding-top: 0.9%;
+    padding-bottom: 0.9%;
+    padding-left: 0.8%;
+    padding-right: 0.5%;
+    color: black;
+}
+.bgcolor1{
+    background-color: rgb(190, 190, 190);
+
+}
+.a3{
+    float:left;
+}
+
+
+#reply{
+    color: rgb(242, 10, 180);
+    transition-property: color;
+    transition-duration: 3s;       
+    transition-timing-function: linear;
+    font-family: bs; 
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+    background-color:rgb(65, 69, 71);
+    color: white;
+}
+/*footer*/
+
+
+.START{
+    color: #FFFFFF;
+}
